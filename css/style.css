@@ -152,33 +152,32 @@ transition: all 3s;
 /* esercizio 10 */
 .ex-10-icon {
 font-size: 60px;
-animation: gira 3s linear infinite; 
+animation: giro 3s linear infinite; 
 }
 
-@keyframes gira {
+@keyframes giro {
     0%{
-        transform: rotate(0deg);
+        transform: rotate(1turn);
     }
-    100%{
-        transform: rotate(360deg);
-    }
+
+
 }
 /* esercizio 11 */
 .ex-11-icon {
     font-size: 60px;
-    animation: gira 9s linear infinite; 
+    animation: gira 7s linear infinite; 
     }
     
     @keyframes gira {
         0%{
             transform: rotate(0deg);
         }
-        50%{
+        75%{
             transform: rotate(340deg);
         }
          
         100%{
-            transform: rotate(-0deg);
+            transform: rotate(0deg);
         }
     }
 
