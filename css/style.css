@@ -260,43 +260,50 @@ transition: all 3s linear;
 
     @keyframes giras {
         
-        25%{
+        22%{
             top: -10px;
             left: calc(100% - 50px);
         }
-        50%{
+        44%{
             top: calc(100% - 10px);
             left: calc(100% - 50px);
         }
-        75%{
+        66%{
             top: calc(100% - 10px);
+            left: -10%;
+        }
+        88%{
+            top: -10px;
             left: -10%;
         }
         100%{
             top: -10px;
-            left: -10%;
+            left: 10%;
         }
-        
     
     }
     
     @keyframes girass {
         
-        25%{
+        22%{
             bottom: -10px;
             right: calc(100% - 50px);
         }
-        50%{
+        44%{
             bottom: calc(100% - 10px);
             right: calc(100% - 50px);
         }
-        75%{
+        66%{
             bottom: calc(100% - 10px);
+            right: -10%;
+        }
+        88%{
+            bottom: -10px;
             right: -10%;
         }
         100%{
             bottom: -10px;
-            right: -10%;
+            right: 20%;
         }
         
     
