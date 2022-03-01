@@ -152,7 +152,18 @@ transition: all 3s;
 /* esercizio 10 */
 .ex-10-icon {
 font-size: 60px;
+animation: gira 1s linear infinite; 
 }
+
+@keyframes gira {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
 .ex-11-icon {
 font-size: 60px;
 }
