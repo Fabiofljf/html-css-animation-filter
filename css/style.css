@@ -246,7 +246,7 @@ transition: all 3s linear;
     background: #f5f5f5;
     width: 60px;
     height: 20px;
-    transition: all 3s linear;
+    animation: giras 10s linear infinite;
     }
     .ex-13-bottom-white{
     position: absolute;
@@ -255,5 +255,49 @@ transition: all 3s linear;
     background: #f5f5f5;
     width: 60px;
     height: 20px;
-    transition: all 3s linear;
+    animation: girass 10s linear infinite;
+    }
+
+    @keyframes giras {
+        
+        25%{
+            top: -10px;
+            left: calc(100% - 50px);
+        }
+        50%{
+            top: calc(100% - 10px);
+            left: calc(100% - 50px);
+        }
+        75%{
+            top: calc(100% - 10px);
+            left: -10%;
+        }
+        100%{
+            top: -10px;
+            left: -10%;
+        }
+        
+    
+    }
+    
+    @keyframes girass {
+        
+        25%{
+            bottom: -10px;
+            right: calc(100% - 50px);
+        }
+        50%{
+            bottom: calc(100% - 10px);
+            right: calc(100% - 50px);
+        }
+        75%{
+            bottom: calc(100% - 10px);
+            right: -10%;
+        }
+        100%{
+            bottom: -10px;
+            right: -10%;
+        }
+        
+    
     }
